@@ -1,0 +1,17 @@
+div:hover{
+  background-color: black;
+}
+
+input:focus {
+  border: 16px solid red;
+}
+
+input:disabled {
+  background-color: red;
+}
+input:checked {
+  background-color: red;
+}
+input:active {
+  background-color: green;
+}

@@ -1,0 +1,13 @@
+.mi-clase {
+  color: red;
+}
+#miparrafo {
+  color: red !important
+}
+p {
+  color: white;
+}
+
+#miparrafo {
+  color: green;
+}

@@ -1,0 +1,28 @@
+div {
+  height: 5em;
+  width: 5em;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  padding: 2em;
+  height: 15em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: end;
+  background-color: aquamarine;
+  gap: 1em;
+}
+.blue {
+  background-color: blue;
+  flex-basis: 10em;
+}
