@@ -7,20 +7,12 @@ button {
   height: 2em;
   background-color: rgb(0, 21, 255);
   color: white;
+  /*Crear transiciones al cambiar de estado*/
   transition: all 1s ease-out;
-  animation: fade 2s 1s;
 }
 button:hover {
   background-color: aqua;
+  height: 10em;
+  padding: 5em;
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0;
-    background-color: red;
-  }
-  100% {
-    opacity: 1;
-    background-color: green;
-  }
-}

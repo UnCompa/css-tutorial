@@ -1,3 +1,6 @@
+/*Para modelar etiquetas se usa el boxmodel que tienen 
+  padding, margin, border, y su altura con height o width
+*/
 div {
   height: 100%;
   width: 50%;

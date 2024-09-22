@@ -1,3 +1,4 @@
+/*Crear estilos para la caja*/
 div {
   height: 5em;
   width: 5em;
@@ -10,7 +11,7 @@ div {
   justify-content: center;
   align-items: center;
 }
-
+/*Uso de flex para tener un contenedor flexible*/
 .contenedor {
   padding: 2em;
   height: 15em;
@@ -22,6 +23,7 @@ div {
   background-color: aquamarine;
   gap: 1em;
 }
+/*Cambio para un elemento del contenedor*/
 .blue {
   background-color: blue;
   flex-basis: 10em;

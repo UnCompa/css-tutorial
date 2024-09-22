@@ -1,6 +1,8 @@
+/*Hay selectores que tienen mas espeficidad que otros*/
 .mi-clase {
   color: red;
 }
+
 #miparrafo {
   color: red !important
 }

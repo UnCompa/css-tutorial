@@ -1,7 +1,9 @@
+/*Restear valores que trae css por defecto*/
 * {
   padding: 0;
   margin: 0;
 }
+/*Dar al body un display grid, para crear nuestra cuadricula*/
 body {
   color: black;
   background-color: white; /* hex 0 - f #rgb */
@@ -15,7 +17,7 @@ body {
   height: 100vh;
   width: 100vw;
 }
-
+/*Establecer cada elemento con una area que viene del grid */
 header {
   grid-area: main;
   background-color: greenyellow;
