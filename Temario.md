@@ -9,13 +9,11 @@
   - Historia y evolución de CSS.
   - Ejemplo básico:
 
-    ```html
-    <style>
+    ```css
       h1 {
         color: blue;
         font-size: 24px;
       }
-    </style>
     ```
 
 - **Tema 2: Sintaxis básica de CSS**
@@ -334,9 +332,7 @@
 
 ### Sección 3: Técnicas avanzadas de diseño responsivo
 
-- **Tema 1: Un
-
-idades CSS avanzadas**
+- **Tema 1: Unidades CSS avanzadas**
 
 - Uso de unidades relativas como `vw`, `vh`, `vmin`, `vmax`, y unidades absolutas como `rem`, `em`.
 - Ejemplo:
@@ -351,10 +347,12 @@ idades CSS avanzadas**
   - Aplicación de media queries avanzadas, incluyendo características como orientación de la pantalla, resolución, etc.
   - Ejemplo:
 
-    ```css
+    ```cssW
     @media (orientation: landscape) {
       .container {
         flex-direction: row;
       }
     }
     ```
+
+Y mas por ver :b
