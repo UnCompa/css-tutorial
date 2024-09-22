@@ -19,18 +19,18 @@ body {
 }
 /*Establecer cada elemento con una area que viene del grid */
 header {
-  grid-area: main;
+  grid-area: header;
   background-color: greenyellow;
 }
 aside {
   background-color: red;
-  grid-area: footer;
+  grid-area: aside;
 }
 main {
-  grid-area: aside;
+  grid-area: main;
   background-color: yellow;
 }
 footer {
-  grid-area: header;
+  grid-area: footer;
   background-color: purple;
 }
